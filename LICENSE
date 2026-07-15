@@ -1,0 +1,36 @@
+RADiANT Software License
+Proprietary — Reproduction Use Only
+
+Copyright (c) 2026 Specifica, an IQVIA business. All rights reserved.
+
+This software, comprising the RADiANT ONT analysis pipeline and its accompanying
+compiled annotation binary (together, the "Software"), is proprietary and
+confidential. It is made available solely to accompany the associated scientific
+publication.
+
+1. Grant. Permission is granted, free of charge, to any person obtaining a copy of
+   the Software to download, install, and run the Software for the sole purpose of
+   evaluating and reproducing the results reported in the associated publication
+   ("Reproduction Use").
+
+2. Restrictions. Except as expressly permitted in Section 1, you may not, without
+   the prior written permission of the copyright holder:
+     (a) redistribute, publish, sublicense, sell, or otherwise make the Software or
+         any portion of it available to any third party, in source or binary form;
+     (b) use the Software for any commercial purpose;
+     (c) create or distribute derivative works based on the Software;
+     (d) reverse engineer, decompile, disassemble, or otherwise attempt to derive
+         the source code of the compiled annotation binary.
+
+3. Reservation of rights. All rights not expressly granted herein are reserved by
+   the copyright holder. No title to or ownership of the Software is transferred.
+
+4. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO
+   EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+   LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+   OTHER DEALINGS IN THE SOFTWARE.
+
+For permissions beyond the scope of this license, contact Specifica, an IQVIA
+business.

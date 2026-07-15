@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radiant"
+version = "0.1.0"
+description = "Reproducible Oxford Nanopore antibody-lead recovery (RADiANT)"
+license = { text = "Proprietary; reproduction use only, see LICENSE" }
+classifiers = ["License :: Other/Proprietary License"]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "biopython>=1.81",
+    "pysam>=0.22",
+    "pandas>=1.5",
+    "editdistance>=0.6",
+]
+
+# The antibody annotator is distributed separately as a compiled component and
+# is not required to build or test the open parts of this package.
+[project.optional-dependencies]
+annotate = ["radiant-annotator"]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["radiant*"]

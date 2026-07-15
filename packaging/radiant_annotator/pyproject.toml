@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radiant-annotator"
+version = "1.0.0"
+description = "Run-only antibody annotator binary for the RADiANT ONT pipeline"
+license = { text = "Proprietary; reproduction use only, see LICENSE" }
+classifiers = ["License :: Other/Proprietary License"]
+requires-python = ">=3.9"
+dependencies = ["pandas"]
+
+[tool.setuptools]
+packages = ["radiant_annotator"]
+
+[tool.setuptools.package-data]
+# Include the compiled, run-only binary; never include source.
+radiant_annotator = ["bin/annotator", "bin/*.so", "bin/*.dylib"]
